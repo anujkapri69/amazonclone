@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon.com Spend Less & Smile More</title>
+   <style>
+    *
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style:normal;
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+#container
+{
+    display: flex;
+    gap: 10px;
+}
+#navbar
+{
+    height: 60px;
+    width: 100%;
+    color: white;
+    background-color:#151a1a;
+    display: flex;
+    gap: 30px;
+    position: relative;
+}
+
+#logo img
+{
+    height: 50px;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 2px;
+    
+}
+#gg
+{
+    display: flex;
+   
+}
+#address .po
+{
+    padding-top: 10px;
+    padding-left: 2px;
+    color: grey;
+}
+#gg .poo
+{
+    padding-left: 5px;
+}
+.ho:hover
+{
+    border: 2px solid white;
+}
+#search
+{
+    align-items: center;
+    margin-top: 10px;
+
+    
+}
+.all
+{
+    height: 40px;
+    width: 50px;
+    background-color: rgb(203, 189, 189);
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+   position: absolute;
+   z-index: 10px;
+   gap: 30px;
+   left: 17%;
+   margin-left: 20px;
+
+}
+#search .input
+{
+    height: 40px;
+    width: 700px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+#mag  .mag
+{
+    height: 40px;
+    width: 50px;
+   
+   position: absolute;
+   right: 31%;
+   top:17% ;
+   border-radius: 5px;
+   
+}
+#en
+{
+    display: flex;
+    gap: 5px;
+}
+#en .en
+{
+    height: 15px;
+    width: 25px;
+    margin-top: 20px;
+}
+#en .E
+{
+    margin-top: 20px;
+}
+#kuch
+{
+    margin-top: 13px;
+}
+  
+#kuch .ku
+{
+    font-size: 15px;
+}
+#kuch .kuc
+{
+    font-size: 18px;
+    font-weight: 100px;
+}
+#kuchb
+{
+    margin-top: 13px;
+}
+#kuchb .r 
+{
+    font-size: 15px;
+}
+#kuchb .rr 
+{
+    font-size: 18px;
+}
+#cart
+{
+    margin-top: 18px;
+    display: flex;
+}
+#cart .cart
+{
+    font-size: 18px;
+}
+#navbar2
+{
+    height: 40px;
+    width: 100%;
+    background-color:rgb(33, 33, 44);
+    display: flex;
+    gap: 20px;
+    color: white;
+    align-items: center;
+}
+
+#container2 #all
+{
+    display: flex;
+    color: white;
+    gap: 5px;
+    margin-left: 20px;
+    
+}
+
+#all .al 
+{
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+#all .fa-solid
+{
+    height: 25px;
+    margin-top: 9px;
+}
+#container3 .uy
+{
+    height: 700px;
+    width: 100%;
+   
+}
+#container3
+{
+    position: relative;
+}
+#body #plane
+{
+    height: 50px;
+    width: 1400px;
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+#plane
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#plane .pla
+{
+    text-align: center;
+    
+}
+#secondpage
+{
+    height: 100vh;
+    width: 100vw;
+    background-color:lemonchiffon;
+    display: flex;
+    flex-direction: row;
+}
+#firstphoto
+{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    color:black;
+    position: absolute;
+    left: 20px;
+    top: 30%;
+}
+#firstphoto .cen
+{
+    text-align: center;
+}
+#firstphoto .kk
+{
+   height: 300px;
+   width: 300px;
+   position: absolute;
+   top: 7%;
+   left: 6%;
+}
+#secondphoto
+{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    color:black;
+    position: absolute;
+    top: 30%;
+    left: 27%;
+  
+}
+#secondphoto .cenn
+{
+    text-align: center;
+}
+#secondphoto .kkk
+{
+   height: 300px;
+   width: 300px;
+   margin-left: 20px;
+   
+}
+#thirdphoto
+{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    color:black;
+    position: absolute;
+    top: 30%;
+    left: 52.7%;
+  
+}
+#thirdphoto .cennn
+{
+    text-align: center;
+}
+#thirdphoto .kkkk
+{
+   height: 300px;
+   width: 300px;
+   margin-left: 20px;
+   
+}
+#fourth
+{
+    height: 150px;
+    width: 340px;
+    background-color: white;
+    position: absolute;
+    top: 30%;
+    left: 77%;
+    text-align: center;
+    align-items: center;
+}
+#fourth h2
+{
+    margin-top: 5%;
+}
+#fourth #or
+{
+    height: 30px;
+    width: 300px;
+    background-color: orange;
+    margin-left: 20px;
+    margin-top: 10%;
+    border-radius: 30px;
+}
+ #or .ope 
+{
+    text-align: center;
+    padding-top: 5px;
+}
+#ooto .randi
+{
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    left: 8%;
+    top: 120%;
+}
+
+#fifthphoto
+{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    color:black;
+    position: absolute;
+    top: 62%;
+    margin-left: 20px;
+  
+}
+#fifthphoto .cennnn
+{
+    text-align: center;
+}
+#fifthphoto .kkkkk
+{
+   height: 300px;
+   width: 300px;
+   margin-left: 20px;
+   
+}
+
+#sixthphoto
+{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    color:black;
+    position: absolute;
+    top: 62%;
+  left: 27%;
+    gap: 20%;
+  
+}
+#sixthphoto .cennnnn
+{
+    text-align: center;
+}
+#sixthphoto .kkkkkk
+{
+   height: 300px;
+   width: 300px;
+   margin-left: 20px;
+   
+}
+#sevenphoto
+{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    color:black;
+    position: absolute;
+    top: 62%;
+  left: 53%;
+    gap: 20%;
+  
+}
+#sevenphoto .cennnnnn
+{
+    text-align: center;
+}
+#sevenphoto .kkkkkkk
+{
+   height: 300px;
+   width: 300px;
+   margin-left: 20px;
+   
+}
+#eightphoto
+{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    color:black;
+    position: absolute;
+    top: 62%;
+  left: 78%;
+    gap: 20%;
+  
+}
+#eightphoto .cennnnnnn
+{
+    text-align: center;
+}
+#eightphoto .kkkkkkkk
+{
+   height: 300px;
+   width: 300px;
+   margin-left: 20px;
+   
+}
+#fourthpage
+{
+    height: 400px;
+    width: 100vw;
+    background-color: black;
+    position: absolute;
+    top: 100%;
+    display: flex;
+}
+#phlagroup
+{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    color: white;
+}
+#dusragroup
+{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    color: white;
+}
+#teesragroup
+{
+    position: absolute;
+    top: 10%;
+    left: 55%;
+    color: white;
+}
+#chgroup
+{
+    position: absolute;
+    top: 10%;
+    left: 75%;
+    color: white;
+}
+#jhund
+{
+    display: flex;
+}
+#jhund .jhu
+{
+    height: 70px;
+    width: 200px;
+    position: absolute;
+    top: 70%;
+    left: 20%;
+}
+.lang
+{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 40px;
+}
+.lanng
+{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 40px;
+}
+#ff
+{
+    display: flex;
+   
+   
+  
+}
+.rtr
+{
+    position: absolute;
+    top: 70%;
+    left: 65.7%;
+    height: 40.2px;
+    width: 50px;
+    border: 1px solid white;
+   
+}
+.ooo
+{
+    position: absolute;
+    top: 70%;
+    left: 69%;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 40px;
+}
+   </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ <div id="container">
+     <div id="navbar">
+            <div id="logo">
+              <img class="ho" src="images/first.png" alt="">
+            </div>
+        <div id="address">
+              <p class="po" >&nbsp;&nbsp;&nbsp; Deliver to</p>
+            <div id="gg">
+              <i class="fa-solid fa-location-dot"></i>
+              <p class="poo">&nbsp;India</p>
+            </div>
+            
+        </div>
+        <div id="search">
+            <select class="all">
+             <option class="all" value= "All">All</option> 
+            </select>
+            <input class="input" placeholder="  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Search Amazon">
+            
+        </div>
+        <div id="mag">
+            <img class="mag" src="images/orange.png" alt="">
+        </div>
+        <div id="en">
+            <img class="en" src="images/en.jpeg" alt="">
+            <p class="E">EN</p>
+        </div>
+        <div id="kuch">
+            <p class="ku">Hello,sign in</p>
+            <p class="kuc">Account & Lists</p>
+        </div>
+        <div id="kuchb">
+            <p class="r">Returns</p>
+            <p class="rr">& Orders</p>
+        </div>
+        <div id="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p class="cart">Cart</p>
+        </div>
+ </div>
+</div>
+<div id="container2">
+    <div id="navbar2">
+        <div id="all">
+            <i class="fa-solid fa-bars"></i>
+            <p class="al">All</p>
+        </div>
+        <div id="today">
+            <p class="todays">Today's Deals</p>
+        </div>
+        <div id="cust">
+            <p class="custt">Customer Service</p>
+        </div>
+        <div id="pp">
+            <p class="p">Registry</p>
+        </div>
+        <div id="gg">
+            <p class="g">Gift Cards</p>
+        </div>
+        <div id="sell">
+            <p class="se">Sell</p>
+        </div>
+    </div>
+</div>
+<div id="container3">
+    <div id="body">
+    
+   <img class="uy" src="https://img.freepik.com/free-photo/flat-lay-black-friday-tags-with-shopping-cart_23-2148285102.jpg?size=626&ext=jpg&ga=GA1.1.1498841960.1678201097&semt=ais" alt="">
+  <div id="plane">
+    <p class="pla">You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery.</p>
+    <a href="index.html"> Click here to go to amazon.in</a>
+</div>
+   <div id="secondpage">
+   <div id="firstphoto">
+    <h2 class="cen">Toys under $30</h2>
+    <img class="kk" src="images/pheli.jpeg" alt="">
+   </div>
+   <div id="secondphoto">
+    <h2 class="cenn">Electronics</h2>
+    <img class="kkk" src="images/elec.jpeg" alt="">
+   </div>
+   <div id="thirdphoto">
+    <h2 class="cennn">Pets</h2>
+    <img class="kkkk" src="images/pets.jpeg" alt="">
+   </div>
+   <div id="fourth">
+    <h2>Sign in for the best experience</h2>
+    <div id="or">
+        <p class="ope">Sign in securely</p>
+    </div>
+    <div id="ooto">
+        <img class="randi" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPU6wOkJbOKA_V5CVQA3yDPWoJz-Se2gjuQA&usqp=CAU" alt="">
+    </div>
+    
+   </div>
+   <div id="thirdpage">
+    <div id="fifthphoto">
+        <h2 class="cennnn">Toys</h2>
+        <img class="kkkkk" src="images/toys.jpeg" alt="">
+       </div>
+       <div id="sixthphoto">
+        <h2 class="cennnnn">Fashion</h2>
+        <img class="kkkkkk" src="images/fashion.jpeg" alt="">
+       </div>
+       <div id="sevenphoto">
+        <h2 class="cennnnnn">Fashion</h2>
+        <img class="kkkkkkk" src="images/cosmetics.jpeg" alt="">
+       </div>
+       <div id="eightphoto">
+        <h2 class="cennnnnnn">Health & Care</h2>
+        <img class="kkkkkkkk" src="images/health.jpeg" alt="">
+       </div>
+   </div>
+   <div id="fourthpage">
+    <div id="phlagroup">
+        <h2>Get to Know Us</h2>
+       <p>Careers</p>
+       <p>Blog</p>
+       <p>About Amazon</p>
+       <p>Investor Relations</p>
+       <p>Amazon Devices</p>
+       <p>Amazon Science</p>
+    </div>
+    <div id="dusragroup">
+        <h2>Make Money With Us</h2>
+       <p>Sell products on Amazon</p>
+<p>Sell on Amazon Business</p>
+<p>Sell apps on Amazon</p>
+<p>Become an Affiliate</p>
+<p>Advertise Your Products</p>
+<p>Self-Publish with Us</p>
+<p>Host an Amazon Hub</p>
+<p> ›See More Make Money with Us</p>
+    </div>
+    <div id="teesragroup">
+        <h2>Make Money With Us</h2>
+       <p>Sell products on Amazon</p>
+<p>Sell on Amazon Business</p>
+<p>Sell apps on Amazon</p>
+<p>Become an Affiliate</p>
+<p>Advertise Your Products</p>
+<p>Self-Publish with Us</p>
+<p>Host an Amazon Hub</p>
+<p> ›See More Make Money with Us</p>
+    </div>
+    <div id="chgroup">
+        <h2>Make Money With Us</h2>
+       <p>Sell products on Amazon</p>
+<p>Sell on Amazon Business</p>
+<p>Sell apps on Amazon</p>
+<p>Become an Affiliate</p>
+<p>Advertise Your Products</p>
+<p>Self-Publish with Us</p>
+<p>Host an Amazon Hub</p>
+<p> ›See More Make Money with Us</p>
+    </div>
+    <div id="jhund">
+        <img class="jhu" src="images/first.png" alt="">
+        <p class="lang">English</p>
+        <p class="lanng">$ USD-Us Dollor</p>
+        <div id="ff">
+        <img class="rtr" src="images/en.jpeg" alt="">
+        <p class="ooo">United States</p>
+    </div>
+    </div>
+</div>
+</div>
+
+</div>
+<hr>
+
+</body>
+</html>
